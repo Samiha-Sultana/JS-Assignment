@@ -1,0 +1,207 @@
+.colorButtons
+{
+    padding-top: 10px;
+     margin-left: 20%;
+   padding-left: 25%;
+ 
+  
+    
+}
+.colorButtons button
+{
+    height: 20px;
+    width: 20px;
+    
+    
+   
+   
+  
+}
+
+.section1 TEXTAREA
+{
+    width: 60%;
+    height: 12%;
+    text-align: center;
+    display: block;
+    border: 5px;
+    text-align: center;
+    padding-top: 2%;
+    font-size: 20px;
+    display: inline-block;
+    padding-bottom: 10%;
+    padding-left: 10%;
+    padding-right: 20%;
+    padding-inline-start: 20%;
+    background-color: tomato;
+    box-shadow: yellowgreen;
+   border-radius: 10%;
+    border:darkolivegreen;
+    border-style: ridge;
+    color: rgb(39, 46, 46);
+    
+         
+}
+
+body
+{
+    background-color: #6E5773;
+    
+    
+}
+
+.Container
+{
+   
+    margin: 0%;
+    width: 60%;
+    border: tomato;
+    justify-content: center;
+    display: inline-block;
+    background-color: #588C85;
+    padding-left: 20%;
+    padding-right: 20%;
+    
+    
+}
+
+.Container2
+{
+   
+    margin: 0%;
+    width: 60%;
+    height:auto;
+    border: tomato;
+    justify-content: center;
+    display: inline-block;
+    background-color: #434E52;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 5%;
+}
+
+.Container3
+{
+   
+    margin: 0%;
+    width: 60%;
+    border: tomato;
+    justify-content: center;
+    display: inline-block;
+    background-color: #6f5a7e;
+    padding-left: 20%;
+    padding-right: 20%;
+   
+    
+}
+
+.Container4
+{
+   
+    margin: 0%;
+    width: 60%;
+    border: tomato;
+    justify-content: center;
+    display: inline-block;
+    background-color: #cd6684;
+    padding-left: 20%;
+    padding-right: 20%;
+ 
+    
+}
+
+
+#red {
+    background-color: #b23f15;
+}
+
+#blue {
+    background-color: #1470b2;
+}
+
+#yellow {
+    background-color: #d6d324;
+}
+
+#green {
+    background-color: #10b731;
+}
+#hero{
+    justify-content: center;
+    padding-left: 40%;
+    
+    
+}
+.section3{
+   padding-left: 45%;
+}
+.footer{
+    text-align: center;
+    font-size:small;
+    color:rgb(165, 115, 115);
+
+    color: rgb(10, 10, 10); 
+    background-color: rgb(217, 147, 229);
+    
+
+}
+.section4{
+    padding-left: 35%;
+}
+.section4 textarea
+{
+    width: 50%;
+    height: 200px;   
+    padding-left: 10px;
+    text-justify: none;
+    text-align: left;
+    
+   
+}
+
+
+
+
+.section4 button
+{
+    width: auto;
+    height: 20px;
+    
+   
+}
+.header{
+    text-align: justify;
+  color:white;
+ background-color: teal;
+  font-family: 'Pacifico', cursive;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  font-style: italic;
+  width: 100%;
+  background-image: url("cov.jpg");
+
+}
+#qb,#hb,#cal,#mag{
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }    }
+    #a{
+        height: auto;
+        width: 100%;
+    }
+    #ans{
+        font-size: x-large;
+        font-weight: bold;
+        color: darkseagreen;
+    }

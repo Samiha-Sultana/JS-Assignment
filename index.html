@@ -1,0 +1,151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Zhi+Mang+Xing&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz|Zhi+Mang+Xing&display=swap" rel="stylesheet"/>
+
+    <link href="https://fonts.googleapis.com/css?family=Sigmar+One|Yanone+Kaffeesatz|Zhi+Mang+Xing&display=swap" rel="stylesheet"/>
+   
+</head>
+<div class="header">
+    <h1 id="title"><center>Javascript Programming</center></h1>
+</div>
+
+<body onload="RandomQuote()">
+    <div class="Container">
+        <h2 id="qb"><center>Quote Box</center></h2>
+        <div class="section1">
+        
+            <textarea name="TEXTAREA" id="TEXTAREA" disabled="disabled"> </textarea>
+            <div class="colorButtons">
+                <button name="button1" type="button" onclick="Green()" style="background-color: green"></button>
+           
+                <button name="button1" type="button" onclick="Yellow()" style="background-color: yellow"></button>
+                 <br>
+                <button name="button1" type="button" onclick="Blue()" style="background-color: blue"></button>
+                <button name="button1" type="button" onclick="Orange()"  style="background-color: orange"></button>
+            </div>
+            <script type="text/javascript" src="script.js"></script>
+        </div>
+    </div>
+
+
+
+    <div class="Container2">
+        <h2 id="hb"><center>Hero Converter</center></h2>
+	
+	<div>
+	<span id="ons">Convert :</span> <input id="cvt" type=" number" name="K">		
+	<select id="CnvTyp">
+  	<option value="P2K">lb to kg</option>
+  	<option value="K2P">kg to lb</option>
+	</select>
+	<button onclick="Cnvrt()">Go</button>
+	
+	<span id="ans"></span>
+	</form>
+	</div>
+
+
+    </div>
+    
+    <div class="Container3" >
+        <h2 id="cal"><center>Calculator</center></h2>
+        <div class="section3">
+        
+            <form>
+                
+            <input type="text" id="CALCULATETEXT" placeholder="Type Your Numbers here"   onkeyup="Calculate()">
+                <br>
+                <br>
+                
+                <label>Max: </label>
+                <output id="MAX"></output>
+                <br>
+                <br>
+                  <label>Min: </label>
+                <output id="MIN"></output>
+                <br>
+                <br>
+                  <label>Sum: </label>
+                <output id="SUM"></output>
+                <br>
+                <br>
+                  <label>Average: </label>
+                <output id="AVERAGE"></output>
+                <br>
+                <br>
+                  <label>Reverse Order: </label>
+                <output id="REVERSE"></output>
+                
+            </form>    
+                
+            </div>
+    </div>
+    
+  <div class="Container4">
+      <h2 id="mag"><center>Magic!</center></h2>
+     
+    
+        <div class="section4">
+            
+        
+            <textarea id="TEXTAREA2"> </textarea>
+            <br>
+            <br>
+            <button type="button" onclick="Clear()">Clear It</button>
+            <button type="button" onclick="Capitalize()">Capitalize</button>
+        
+            <button type="button" onclick="Sort()">Sort</button>
+            <button type="button" onclick="reversetext()">Reverse</button>
+            <button type="button" onclick="Trim()">Strip Blank</button>
+            <button type="button" onclick="Addi()">Add Numbers</button>
+            <button type="button" onclick="Shuffle()">Shuffle</button>
+            
+        
+        </div>
+  </div>   
+  
+</div>
+<div class="footer">
+
+    <div>
+        <h2>Page's Location</h2>
+        <p id="path"></p>
+        <script type="text/javascript">
+            document.getElementById("path").innerHTML =
+                "Page path is: " + window.location.pathname;
+        </script>
+
+        <p id="loc"></p>
+        <script type="text/javascript">
+            document.getElementById("loc").innerHTML =
+                "The full URL of this page is:" + window.location.href;
+        </script>
+    </div>
+    
+    <div>
+        <h2>Last modified</h2>
+
+        <p id="demo"></p>
+        <script type="text/javascript">
+            var x = document.lastModified;
+            document.getElementById("demo").innerHTML = x;
+        </script>
+
+    </div>
+    <img src="logo.png" alt=""style="width:48px;height:48px;"/>
+    <center>&copy;Samiha Sultana</center>
+</div>
+</body>
+</html>
